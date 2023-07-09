@@ -1,0 +1,20 @@
+header{
+    background-color: #ed8080;
+}
+section.my-article{
+    background-color: #d5d8deac;
+}
+/* all child */
+header p{
+    color: rgb(23, 219, 108);
+}
+/* adjacent selector */
+p+h1{
+    color: rgb(56, 27, 241);
+}
+
+/* direct child selector  */
+
+section.my-article>h2{
+    color: rgba(221, 10, 7, 0.459);
+}
