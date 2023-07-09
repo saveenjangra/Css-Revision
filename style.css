@@ -18,3 +18,26 @@ p+h1{
 section.my-article>h2{
     color: rgba(221, 10, 7, 0.459);
 }
+input[type=text]{
+    background-color: bisque;
+}
+/* a[href="https://goggle.co.in"]{
+    color: rgb(80, 135, 24);
+} */
+/* it is hactic to paste whole link */
+
+/* a[href*=goggle]{
+    color: chocolate;
+} */
+/* 
+a[href^=https]{
+    color: rgb(39, 7, 201);
+} */
+
+a[href$= ".com"]{
+    color:rgb(255, 0, 21);
+}
+
+input[type ^="t"]{
+    color: rgb(47, 14, 213);
+}
