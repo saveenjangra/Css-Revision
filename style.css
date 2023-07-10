@@ -41,3 +41,24 @@ a[href$= ".com"]{
 input[type ^="t"]{
     color: rgb(47, 14, 213);
 }
+/* learning specificity */
+
+/* >inlinestyle>id>class>element */
+/* importance of !important */
+/* later one specifcity is more one giving same class */
+
+/* h1{
+    color:aqua
+} */
+.heading{
+    color: rgb(162, 6, 6);
+}  
+.h1class{
+    color: #ed8080 
+}
+
+
+/* #h1id{
+    color: rgb(39, 12, 236);
+} */
+
