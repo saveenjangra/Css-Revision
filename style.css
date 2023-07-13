@@ -76,12 +76,24 @@ input[type ^="t"]{
     padding: 5px;
     display: block;
 }
-.ul{
-    border: 2px solid gray;
-    
+nav{
+   border: 2px solid red;
+   background-color: bisque;
 }
-.ui>li{
-    display: inline;
-    align-items: 50px auto;
+ul{
+  
+   list-style: none;
+   text-align: center;
+   padding-left: 0px;
+}
+li{
+   
+   display:inline-block;
+   margin-left: 15px 10px;
+   border-bottom:1px solid black;
 
+}
+a{
+    color: black;
+    text-decoration: none;
 }
