@@ -76,3 +76,12 @@ input[type ^="t"]{
     padding: 5px;
     display: block;
 }
+.ul{
+    border: 2px solid gray;
+    
+}
+.ui>li{
+    display: inline;
+    align-items: 50px auto;
+
+}
